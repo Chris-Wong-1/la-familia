@@ -3,7 +3,6 @@ module.exports = {
     title: "Taqueria La Familia",
   },
   plugins: [
-    "gatsby-plugin-sass",
     "gatsby-plugin-layout",
     "gatsby-plugin-gatsby-cloud"
   ],
