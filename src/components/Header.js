@@ -7,6 +7,9 @@ import "@fontsource/oswald/500.css";
 const header = {
   display: "flex",
   justifyContent: "center",
+  // backgroundColor: "#FFC71F",
+  backgroundColor: "#FFA21F",
+  padding: "2rem",
 }
 
 const headerName = {
@@ -16,12 +19,14 @@ const headerName = {
   textAlign: "center",
   flexGrow: "3",
   textDecoration: "none",
-  color: "black",
+  color: "#0A0A0A",
 }
 
 const link = {
   fontFamily: "Oswald, serif",
   fontSize: "2rem",
+  textDecoration: "none",
+  color: "#0A0A0A",
 }
 
 export default function Header() {
