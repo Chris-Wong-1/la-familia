@@ -2,7 +2,31 @@ import * as React from "react"
 
 // styles
 const paragraphStyles = {
-  marginBottom: 48,
+  paddingTop: "2rem",
+  paddingBottom: "4rem",
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  fontFamily: "Oswald, serif",
+  fontSize: "1.2rem",
+  letterSpacing: "0.1rem",
+}
+
+const orderButton = {
+  appearance: "button",
+  textDecoration: "none",
+  width: "16rem",
+  fontSize: "2rem",
+  backgroundColor: "#4CAF50",
+  border: "none",
+  color: "white",
+  padding: "1rem",
+  textAlign: "center",
+  display: "inline-block",
+}
+
+const contentStyles = {
+  paddingTop: "2rem",
 }
 
 // markup
@@ -10,7 +34,16 @@ const IndexPage = () => {
   return (
     <main>
       <p style={paragraphStyles}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum gravida velit, in tempus libero interdum in. Fusce imperdiet neque lorem, ac placerat lacus semper sit amet. Vestibulum vel urna quis lectus mattis efficitur. Donec eu ultricies justo. Curabitur placerat magna nec consequat pulvinar. Suspendisse a enim quis orci volutpat mattis. Vivamus et mauris dui. Donec facilisis mollis enim, sit amet mollis purus tincidunt ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi scelerisque et metus quis ornare. Proin auctor nisi diam, convallis fringilla nunc facilisis id. In et dui diam. Morbi at lobortis velit, eu posuere mauris. Duis a dapibus augue. Cras tincidunt, ipsum in egestas sagittis, nisi nunc ullamcorper libero, id ultricies nisi augue eget eros. Phasellus feugiat elementum porttitor. Nulla consequat velit lectus, eu pharetra diam elementum et.
+        <a
+          style={orderButton}
+          href="https://www.clover.com/online-ordering/taqueria-la-familia-berkeley-2">
+            ORDER ONLINE
+        </a>
+        <div style={contentStyles}>
+          We are currently open for curbside pickup of to go orders only.
+        </div>
+        <div>Please feel free to call ahead or place your order online.</div>
+        <div>Thank you for your support! Stay safe!</div>
       </p>
     </main>
   )
