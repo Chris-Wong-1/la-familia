@@ -4,12 +4,15 @@ import * as React from "react"
 const paragraphStyles = {
   paddingTop: "2rem",
   paddingBottom: "4rem",
+  paddingLeft: "1rem",
+  paddingRight: "1rem",
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
   fontFamily: "Oswald, serif",
   fontSize: "1.2rem",
   letterSpacing: "0.1rem",
+  textAlign: "center"
 }
 
 const orderButton = {
@@ -42,7 +45,9 @@ const IndexPage = () => {
         <div style={contentStyles}>
           We are currently open for curbside pickup of to go orders only.
         </div>
-        <div>Please feel free to call ahead or place your order online.</div>
+        <div>
+          Please feel free to call ahead or place your order online.
+        </div>
         <div>Thank you for your support! Stay safe!</div>
       </p>
     </main>

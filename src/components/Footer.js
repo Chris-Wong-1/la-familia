@@ -20,7 +20,7 @@ export default function Footer() {
       <div>
         <a style={phoneNumber} href="tel:1-510-548-3420">(510) 548-3420</a>
       </div>
-      <div>Open Monday - Saturday, 10AM - 9PM</div>
+      <div>Open Monday - Saturday, 10AM - 8PM</div>
       <div>Closed Sundays</div>
       <div>2971 Shattuck Avenue, Berkeley, California</div>
     </div>

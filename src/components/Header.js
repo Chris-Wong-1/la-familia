@@ -31,6 +31,7 @@ const mariasText = {
   fontFamily: "Oswald, serif",
   fontSize: "2rem",
   letterSpacing: "0.1rem",
+  textAlign: "center",
 }
 
 export default function Header() {
