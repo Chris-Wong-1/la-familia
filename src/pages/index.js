@@ -43,12 +43,12 @@ const IndexPage = () => {
             ORDER ONLINE
         </a>
         <div style={contentStyles}>
-          We are currently open for curbside pickup of to go orders only.
+          Welcome back to inside dining!
         </div>
         <div>
-          Please feel free to call ahead or place your order online.
+          Please feel free to join us here, phone ahead and/or place your order online.
         </div>
-        <div>Thank you for your support! Stay safe!</div>
+        <div>Thank you for you continued patronage and loving support!</div>
       </p>
     </main>
   )
