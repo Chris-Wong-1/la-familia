@@ -4,6 +4,6 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-layout",
-    "gatsby-plugin-gatsby-cloud"
+    "gatsby-plugin-netlify"
   ],
 };

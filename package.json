@@ -16,11 +16,11 @@
   },
   "dependencies": {
     "@fontsource/oswald": "^4.2.2",
-    "gatsby": "^3.1.2",
-    "gatsby-plugin-gatsby-cloud": "^2.1.0",
+    "gatsby": "^5.12.5",
     "gatsby-plugin-layout": "^2.1.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "gatsby-plugin-netlify": "^5.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sass": "^1.32.8"
   }
 }
